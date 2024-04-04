@@ -1,0 +1,174 @@
+body {
+    min-height: 50vh;
+    background: url("https://digitshack.com/codepen/bmical/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Nunito", sans-serif;
+}
+
+header>h1 {
+    color: rgb(0, 255, 242);
+    background-color: rgb(23, 23, 23);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lobster';
+    text-shadow: 2px 2px 4px #ff0000;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+}
+
+header>h2 {
+    color: rgb(2, 2, 2);
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Lobster', sans-serif;
+    text-shadow: 1px 1px 2px #00eeff;
+}
+
+header>p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: left-right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+body>.Main-container {
+    background-color: #ff0000;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+
+.Main-container>section {
+    text-align: center;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-Form {
+    display: block;
+    border-radius: 10px;
+    border: solid 1px #000000;
+    background-color: #494949;
+    box-shadow: #000000 1px 10px 10px 1px;
+    padding: 23px;
+}
+
+.container-Gender {
+    margin: 10px;
+    display: inline-table;
+    width: max;
+}
+
+.container-input {
+    background-color: rgb(83, 164, 167);
+    text-align: center;
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border: solid 2px #000000;
+    padding: 14px;
+    box-shadow: #000000;
+}
+
+.input-group {
+    margin-top: 0px;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
+
+.container-button {
+    display: flex;
+    border-color: #000000;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.btn-Hitung {
+    background-color: #76ffaf;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.btn-Reset {
+    background-color: #000000;
+    padding: 4px;
+    margin-left: 4px;
+}
+
+.btn-Download {
+    background-color: #000000;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.container-Results {
+    background-color: #ff8282;
+    text-align: justify;
+    max-width: auto;
+    height: auto;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: solid 1px #000000;
+    padding: 38px;
+    margin-top: 1px;
+    box-shadow: #000000 1px 10px 10px 1px;
+}
+
+.container-Results #Results {
+    font-size: 38px;
+    font-weight: 10px;
+    color: #05f571;
+    background-color: #eaeaea;
+    padding: 4px;
+    border: solid: 14px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sosial-icon {
+    display: block;
+    margin-right: 10px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.fa-facebook {
+    color: #00ccff;
+}
+
+.fa-instagram {
+    color: #ff6600;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-google {
+    color: #00ff88;
+}
+
+footer {
+    background-color: #686868;
+    text-align: center;
+}

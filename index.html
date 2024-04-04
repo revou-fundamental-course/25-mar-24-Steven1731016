@@ -1,0 +1,143 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html>
+  <!--ini adalah baris pertama dari HTML-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Kalkulator BMI-Steven</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <!--ini adalah baris dari HTML untuk tampilan headaer-->
+  <body>
+    <header>
+      <hr />
+      <h1>Welcome to BMI Calculator</h1>
+      <hr />
+      <h2>Kalkulator BMI-Steven</h2>
+      <section>
+        <h4>Kalkulator BMI</h4>
+        <p>
+          Kalkulator BMI adalah sebuah aplikasi yang dapat menghitung berat
+          badan ideal anda. Berat badan ideal adalah impian semua orang. Tidak
+          hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan
+          ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?
+          Yuk, hitung sekarang di kalkulator BMI
+        </p>
+      </section>
+    </header>
+    <!--ini adalah baris main container untuk membuat tampilan form dan hasil-->
+    <main>
+      <div class="Main-container">
+        <!-- dalam main container ini saya gabungkan form dan result jadi satu section kemudian nanti dipisahkan tampilannya dibagian setting style.css-->
+        <section>
+          <!-- bagian pertama ini adalah class untuk tampilan formnya-->
+          <div class="container-Form">
+            <h1>FORM</h1>
+            <div class="container-Gender">
+              <h3>Pilih Jenis Kelamin :</h3>
+              <div class="options">
+                <label for="male">Pria<img src="assets/male.svg" ></label>
+                <input type="radio" id="male" name="gender" value="male"/>
+              </div>
+              <div class="options">
+                <label for="female">Wanita<img src="assets/female.svg"></label>
+              <input type="radio" id="female" name="gender" value="female" />
+              </div>
+            </div>
+            <div class="container-input">
+              <h3>Isi Data Anda :</h3>
+              <div>
+                <div class="input-group">
+                  <h3>
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Nama" required />
+                  </h3>
+                <h3>
+                  <label for="name">Umur</label>
+                <input type="number" id="age" placeholder="Umur (Tahun)" required />
+                </h3>
+                <h3>
+                <label for="name">Tinggi</label>
+                <input type="number" id="height" placeholder="Tinggi Badan (cm)" required />
+                </h3>
+                <h3>
+                <label for="weight">Berat</label>
+                <input type="number" id="weight" placeholder="Berat Badan (kg)" required />
+                </h3>
+                </div>
+              </div>
+            </div>
+            <div class="container-button">
+              <div class="btn-Hitung">
+                <button type="click" id="calculate">Hitung</button>
+              </div>
+              <div class="btn-Reset">
+                <button type="click" id="reset">Reset</button>
+              </div>
+              <div class="btn-Download">
+                <button type="click" id="DownloadBMI">Download Result</button>
+              </div>
+            </div>
+          </div>
+        <!--ini adalah class untuk tampilan Hasil atau result-->
+        <section>
+          <div class="container-Results">
+            <h1>RESULTS</h1>
+            <div class="container-Results">
+              <h3>Berat Badan Ideal Anda</h3>
+              <h3 id="Results">00.00</h3>
+              <h3 id="bmi-categoryy">text</h3>
+            </div>
+            <div class="container-Results">
+              <p id="bmi-gejala">text</p>
+            </div>
+            <h2>NOTES</h2>
+            <div class="container-Results">
+            <h4 id="bmi-description">Keterangan</h4>
+          </div>
+          </div> 
+        </div> 
+        </section>
+      </div>
+      <script src="js/script.js" defer></script>
+    </main>
+  </body>
+  <!--ini adalah baris untuk penjelasan singkat dari kalkulator BMI-->
+  <body>
+    <section>
+      <h4>Keungggulan Fitur :</h4>
+      <p>1. Menghitung Berat Badan</p>
+      <p>2. Menentukan Kategori berat badan ideal atau tidak</p>
+      <p>3. Mempersiapkan Program Penurunan Badan</p>
+      <div>
+      <p id="article1"></p>
+      <p id="article2"></p>
+      </div>
+    </section>
+      <!--ini adalah baris untuk sosial media dan footer-->
+    <section>
+      <hr/>
+      <h3>Sosial Media</h3>
+      <div class="sosial-icon">
+        <div>
+      <a href="https://www.facebook.com/Em4483.Beat" target="_blank" class="fa fa-facebook">facebook</a>
+        </div> 
+        <div>
+      <a href="https://www.instagram.com/e_p_e_n/" target="_blank" class="fa fa-instagram">instagram</a>
+        </div> 
+        <div> 
+      <a href="https://www.youtube.com/channel/UCseJdd3Djo19PMxirinji-Q" target="_blank" class="fa fa-youtube">youtube</a>
+        </div>
+        <div>
+      <a href="https://mail.google.com/mail/stevenmaniawasi93" target="_blank" class="fa fa-google">google</a>
+      </div>
+      </div>
+    </section>
+    <footer>
+      <hr />
+      <p>&copy; 2024 Kalkulator BMI-Steven Stevanus Maniawasi</p>
+      <hr />
+    </footer>
+  </body>
+</html>
